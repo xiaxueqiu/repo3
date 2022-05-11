@@ -1,0 +1,6 @@
+#! /bin/bash
+for i in cce02xiaxueqiu cce03xiaxueqiu cce04xiaxueqiu
+do
+    echo --------- $i ----------
+    ssh $i "$*"
+done
